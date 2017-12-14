@@ -9,11 +9,11 @@ namespace TODO_App
     {
         public void Print()
         {
-            Console.WriteLine("Command line arguments:\n", Environment.NewLine,
-                              "- l   Lists all the tasks\n", Environment.NewLine,
-                              "- a   Adds a new task\n", Environment.NewLine,
-                              "- r   Removes an task\n", Environment.NewLine,
-                              "- c   Completes an task\n", Environment.NewLine);
+            Console.WriteLine("Command line arguments:\n");
+            Console.WriteLine("- l   Lists all the tasks\n");
+            Console.WriteLine("- a   Adds a new task\n");
+            Console.WriteLine("- r   Removes an task\n");
+            Console.WriteLine("- c   Completes an task\n");
         }
 
         public void ReadAll()
@@ -56,7 +56,7 @@ namespace TODO_App
 
         public void ErrorHandling()
         {
-            Console.WriteLine("Unable to add: no task provided");        
+            Console.WriteLine("Unable to add: no task provided");
         }
 
         //public void Remove(int input)
